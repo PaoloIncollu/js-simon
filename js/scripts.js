@@ -11,7 +11,6 @@ step
 
 const cpuNumbers = [];
 const userNumbers = [];
-const resultList =[];
 const numberCpu = document.getElementById('number-cpu-container');
 let userNumber;
 let count = 0;
