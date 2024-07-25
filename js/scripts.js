@@ -38,7 +38,7 @@ console.log (cpuNumbers);
 const clock = setInterval( function(){
 
     console.log(counter);
-    if (counter == 1){
+    if (counter == 0){
 
         numberCpu.remove();
         clearInterval(clock);
@@ -48,6 +48,7 @@ const clock = setInterval( function(){
     else{
 
         counter --;
+        
     }
 
 }, 1000);
@@ -77,7 +78,7 @@ setTimeout ( function(){
             alert(`Hai indovinato ${count} numeri: ${userNumbers}`);
         }
          
-}, 31000);
+}, 32000);
 
 
  
