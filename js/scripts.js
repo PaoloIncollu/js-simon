@@ -14,7 +14,7 @@ const userNumbers = [];
 const numberCpu = document.getElementById('number-cpu-container');
 let userNumber;
 let count = 0;
-let counter = 5;
+let counter = 30;
 let i ;
 for (i = 0; cpuNumbers.length < 5 ; i ++) {
 
@@ -77,7 +77,7 @@ setTimeout ( function(){
             alert(`Hai indovinato ${count} numeri: ${userNumbers}`);
         }
          
-}, 6000);
+}, 31000);
 
 
  
